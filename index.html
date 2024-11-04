@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+<div id="container">
+        <div id="one">
+            <img src="/batt" class="imag" width="150">
+            <h1 class="bat">BAT</h1>
+            <h4>The bat is lightweight and easy to carry anywhere.</h4>
+            <h3 class="">$.40</h3>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><br><br>
+            <button class="but" onclick="addto()" ondblclick="addtoo()">Add to Cart </button>
+        </div>
+        <div id="two">
+            <div data-aos="fade-right">
+
+            <img src="/boat.jpg" class="imag" width="170" height="258">
+            <h1 class="boat">BOAT</h1>   
+            <h4>Boat headphones are known their design and performance.</h4> 
+            <h3>$.400</h3>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><br><br>   
+            <button class="butt" onmouseover="adto()">Add to Cart</button>
+        </div></div>
+        <div id="three">
+            <div data-aos="fade-up-left">
+
+            <img src="/watch" class="imag" width="150" height="270">
+            <h1 class="watch">WATCH</h1>
+            <h4>The watch features a classic design with a steel case.</h4>
+            <h3>$.300</h3>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><br><br>
+            <button class="buttt" >Add to Cart</button>
+         </div></div>
+    </div>
+
+    <script>
+        function addto(){
+            var addto=document.getElementById("one");
+            addto.style.backgroundColor="red";
+        }
+
+        function addtoo(){
+            var addto=document.getElementById("one");
+            addto.style.backgroundColor="yellow";
+        }
+
+        function adto(){
+            var adto=document.getElementById("two");
+            adto.style.backgroundColor="aqua";
+        }
+        
+
+        AOS.init();
+   </script>
+</body>
+</html>

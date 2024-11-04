@@ -1,0 +1,56 @@
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 678px;
+}
+#container div
+{
+    width: 600px;
+    margin: 60px;
+    text-align: center;
+    border: 1px solid rgb(214, 192, 192);
+    padding-top: 20px;
+}
+.bat{
+    font-family: sans-serif;
+}
+.boat{
+    font-family: sans-serif;
+    
+}
+.watch{
+    font-family: sans-serif;
+}
+.fa-solid{
+    color: #FFD700;
+}
+#but{
+
+    background-color: #32de84;
+}
+.butt{
+   
+    background-color: #BA0021;
+}
+.buttt{ 
+    background-color: #FEBE10;
+}
+button{
+    background-color: rgb(93, 193, 93);
+    border: none;
+    padding: 20px 158px;
+    cursor: pointer;
+    
+}
+#one h3{
+    color: #32de84;
+}
+#two h3{
+    color: #BA0021;
+}
+#three h3{
+    color: #FEBE10;
+}
